@@ -14,4 +14,14 @@ print(reverse(123))
 print(ispalindrome(123))  
 
 print(reverse(121))        
-print(ispalindrome(121))  
+print(ispalindrome(121))
+
+
+
+def getpalindrome(start,end):
+    res=" "
+    for i in range(1,end+1):
+        if ispalindrome(i):
+            res=res+str(i)+","
+    return res
+print(getpalindrome(1,1000))
