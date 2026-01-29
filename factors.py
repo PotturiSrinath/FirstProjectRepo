@@ -6,8 +6,8 @@ while i!=n:
     print(i)
     s+=i
   i+=1
-  print("Sum of factors is:,s")
-  if s==n:
+print("Sum of factors is:",s)
+if s==n:
     print("perfect number")
-  else:
+else:
     print("not a perfect number")
